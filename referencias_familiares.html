@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Referencias Familiares</title>
+</head>
+
+<body onload="acordeon()">
+    <div class="familiares" id="familiares">
+        <header>
+            <hgroup>
+                <h1 id="titulo_fam">Referencias Familiares</h1>
+            </hgroup>
+        </header>
+        <section">
+        <h3 class="acordeon" id="ref_familiar1">Referencia familiar 1</h3>
+            <div class="exp" id="ref_fam1">
+                <h2>Manuel Vázquez Castro</h2>
+                <p>
+                    Gerente de Recursos Humanos
+                    <br>Agencia de Marketing Online NeoAttack
+                    <br>+34 913 55 27 86
+                    <br>mavale16@gmail.com
+                </p>
+            </div>
+            <h3 class="acordeon" id="ref_familiar2">Referencia familiar 2</h3>
+            <div class="exp" id="ref_fam2">
+                <h2>Juan Gallegos Zavala</h2>
+                <p>
+                    MAKE Digital Marketing
+                    <br>Coordinador de Marketing Digital
+                    <br>+34 913 09 02 09
+                    <br>j.gallegos@makemarketing.com
+                </p>
+            </div>
+            <h3 class="acordeon" id="ref_familiar3">Referencia familiar 3</h3>
+            <div class="exp" id="ref_fam3">
+                <h2>Leticia Rivadeneyra Gómez</h2>
+                <p>
+                    Directora creativa
+                    <br>Marketing Paradise
+                    <br>+34 910 17 28 08
+                    <br>rivadeneyral@paradise.com
+                </p>
+            </div>
+            <select onchange="cambiarColor6('familiares', 'optionColor6')" name="select" id="optionColor6" class="optionColor2">
+                <option class="default1" id="default1" value="default" disabled selected>Sub menus</option>
+                <option class="oscuro1" id="oscuro1" value="black">Oscuro</option>
+                <option class="lightgreen1" id="lightgreen1" value="lightgreen">Verde</option>
+                <option class="celeste1" id="celeste1" value="lightblue">Celeste</option>
+              </select> 
+            </section>
+    </div>
+</body>
+
+</html>

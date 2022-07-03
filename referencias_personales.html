@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Referencias Personales</title>
+</head>
+<body onload="acordeon()">
+    <div class="personales" id="personales">
+        <header>
+            <hgroup>
+                <h1 id="titulo_ref">Referencias Personales</h1>
+            </hgroup>
+        </header>
+            <section">
+            <h3 class="acordeon" id="ref_personal1">Referencia personal 1</h3>
+                <div class="exp" id="ref1">
+                    <h2>Saul Soto Alvarez</h2>
+                    <p>
+                        Ingeniero de Sistemas
+                        <br>Amazon
+                        <br>+591 76566554
+                        <br>saul@gmail.com
+                    </p>
+                </div>
+                <h3 class="acordeon" id="ref_personal2">Referencia personal 2</h3>
+                <div class="exp" id="ref2">
+                    <h2>Álvaro Carrillo Quiroga</h2>
+                    <p>
+                        Quality Assurance
+                        <br>AssureSoft
+                        <br>+51 953877234
+                        <br>carrillo1621@gmail.com
+                    </p>
+                </div>
+                <h3 class="acordeon" id="ref_personal3">Referencia personal 3</h3>
+                <div class="exp" id="ref3">
+                    <h2>Jorge Rivera Morales</h2>
+                    <p>
+                        Project Manager
+                        <br>Google
+                        <br>+34 917 48 64 00
+                        <br>jrivera@google.com
+                    </p>
+                </div>
+                <select onchange="cambiarColor5('personales', 'optionColor5')" name="select" id="optionColor5" class="optionColor2">
+                    <option class="default1" id="default1" value="default" disabled selected>Sub menus</option>
+                    <option class="oscuro1" id="oscuro1" value="black">Oscuro</option>
+                    <option class="lightgreen1" id="lightgreen1" value="lightgreen">Verde</option>
+                    <option class="celeste1" id="celeste1" value="lightblue">Celeste</option>
+                  </select> 
+            </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Experiencia Laboral</title>
+</head>
+
+<body onload="acordeon()">
+    <div class="laboral" id="laboral">
+        <header>
+            <hgroup>
+                <h1 id="titulo_lab">Experiencia Laboral</h1>
+            </hgroup>
+        </header>
+        <section">
+            <h3 class="acordeon" id="exp_laboral1">Experiencia laboral 1</h3>
+            <div class="exp" id="exp1">
+                <h2>Desarrollador Web</h2>
+                <p>Laboratorio de Informática y Sistemas, <span>Cochabamba-Bolivia</span> <br>Desarrollo de software</p>
+                <span>Git, C#, PHP, HTML, CSS y Jaspersoft Studio</span>
+            </div>
+            <h3 class="acordeon" id="exp_laboral2">Experiencia laboral 2</h3>
+            <div class="exp" id="exp2">
+                <h2>Quality Assurance</h2>
+                <p>Empresa de IT REMBOL, <span>Montevideo-Uruguay</span> <br>Manual Tester</p>
+                <span>Mantis Bug Tracker, Jira, Selenium IDE, Gitlab Dashboard
+                </span>
+            </div>
+            <h3 class="acordeon" id="exp_laboral3">Experiencia laboral 3</h3>
+            <div class="exp" id="exp3">
+                <h2>Auxiliar Docencia</h2>
+                <p>Universidad Privada Boliviana, <span>Cochabamba-Bolivia</span> <br>Auxiliar de Introduccion a la
+                    progrmamacion</p>
+                <span>Netbeans, Java, Pseint</span>
+            </div>
+            <h3 class="acordeon" id="exp_laboral4">Experiencia laboral 4</h3>
+            <div class="exp" id="exp4">
+                <h2>Ingeniero en Sistemas</h2>
+                <p>Administrador en DevoTeam, <span>Lima-Peru</span> <br>Responsable del mantenimiento de la
+                    infraestructura de sistemas de la empresa</p>
+                <span>Recovery, Software libre</span>
+            </div>
+            <select onchange="cambiarColor4('laboral', 'optionColor4')" name="select" id="optionColor4"
+                class="optionColor2">
+                <option class="default1" id="default1" value="default" disabled selected>Sub menus</option>
+                <option class="oscuro1" id="oscuro1" value="black">Oscuro</option>
+                <option class="lightgreen1" id="lightgreen1" value="lightgreen">Verde</option>
+                <option class="celeste1" id="celeste1" value="lightblue">Celeste</option>
+            </select>
+            </section>
+    </div>
+</body>
+
+</html>

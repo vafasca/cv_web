@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Estudios Realizados</title>
+</head>
+<body onload="acordeon()">
+    <div class="estudios" id="estudios">
+
+                <h1 id="titulo_estudios">Estudios Realizados</h1>
+
+        <section>
+            <h3 class="acordeon" id="estudio1">Estudio realizado 1</h3>
+            <diV class="exp" id="estudios1">
+                <h3 id="sub_estudios">Sistemas, Graduado en Ingenierita de Sistemas</h2>
+                <p id="parrafo_estudios">Universidad Mayor de San Simon, <span>Cochabamba-Bolivia</span></p>
+            </diV>
+            <h3 class="acordeon" id="estudio2">Estudio realizado 2</h3>
+            <div class="exp" id="estudios2">
+                <h3 id="sub_estudios2">Seguridad en tecnologías de la Información, Posgrado</h2>
+                <p id="parrafo_estudios2">Universidad Mayor de San Simon, <span>Cochabamba-Bolivia</span></p>
+            </div>
+            <select onchange="cambiarColor2('estudios', 'optionColor2')" name="select" id="optionColor2" class="optionColor2">
+                <option class="default1" id="default1" value="default" disabled selected>Sub menus</option>
+                <option class="oscuro1" id="oscuro1" value="black">Oscuro</option>
+                <option class="lightgreen1" id="lightgreen1" value="lightgreen">Verde</option>
+                <option class="celeste1" id="celeste1" value="lightblue">Celeste</option>
+              </select> 
+        </section>
+    </div>
+</body>
+</html>

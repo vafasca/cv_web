@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Hoja de vida</title>
+</head>
+
+<body>
+    <header class="bg_animate" id="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <h1 style="cursor: pointer;" class="refrescar" id="refrescar" onclick="refrescarPagina()">HOJA DE VIDA
+                </h1>
+                <nav class="navbar">
+                    <a href="informacion_principal.html" target="iframe_info" class="enlace">Informacion</a>
+                    <a href="estudios_realizados.html" target="iframe_info" class="enlace">Estudios Realizados</a>
+                    <a href="experiencia_laboral.html" target="iframe_info">Experiencia laboral</a>
+                    <a href="referencias_personales.html" target="iframe_info">Referencias personales</a>
+                    <a href="referencias_familiares.html" target="iframe_info">Referencias familiares</a>
+                </nav>
+            </div>
+        </div>
+
+        <section class="banner contenedor">
+            <section class="banner_tittle">
+                <img src="image/foto-cv.jpeg" alt="foto_cv" class="perfil">
+                <h2>BRUNO ALEJANDRO<br> ORTIZ VELASQUEZ</h2>
+                <div class="enlace">
+                    <a href="https://www.linkedin.com/in/baov1995/" class="link" target="_blank">Linkedin</a>
+                    <a href="https://www.youtube.com/channel/UCqTH1ypl_1sRCqthP1bZNng" class="link"
+                        target="_blank">YouTube</a>
+                    <a href="https://github.com/vafasca" class="link" target="_blank">Github</a>
+                    <a href="pdf/Bruno_cv.pdf" target="_blank" class="link">Descargar CV</a>
+                </div>
+
+            </section>
+            <div class="banner_img">
+                <br><br><br><br><br><br><br><br>
+                <iframe name="iframe_info" height="500px" width="500px" title="Iframe Example" class="foto"
+                    id="foto"></iframe>
+                <select onchange="cambiarColor('bg_animate', 'optionColor')" name="select" id="optionColor"
+                    class="optionColor">
+                    <option class="default" id="default" value="default" disabled selected>Menu Principal</option>
+                    <option class="oscuro" id="oscuro" value="black">Oscuro</option>
+                    <option class="lightgreen" id="lightgreen" value="lightgreen">Verde</option>
+                    <option class="celeste" id="celeste" value="lightblue">Celeste</option>
+                </select>
+            </div>
+
+        </section>
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+    <footer id="footer" class="footer">&copy; Copyright 2022 HTML-CSS-JAVASCRIPT BrunoO Ortiz</footer>
+</body>
+
+</html>

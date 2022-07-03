@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/taller.js"></script>
+    <title>Informacion Principal</title>
+</head>
+<body onload="acordeon()">
+    <div class="info" id="info">
+                <h1 id="titulo_info"><i>Sobre mi</i></h1>
+        <section>
+            <div class="exp">
+                <h3 class="acordeon" id="sub_info">Informacion principal</h3>
+                <p id="parrafo_info">Profesional en Ingeniería de Sistemas, con
+                    preparación autodidacta en QA manual y
+                    Desarrollo Web, capacidad para aprender y
+                    aplicar los conocimientos al ámbito
+                    profesional donde desarrollar mis
+                    habilidades y adquirir experiencia.</p>
+            </div>
+            <select onchange="cambiarColor3('info', 'optionColor3')" name="select" id="optionColor3" class="optionColor2">
+                <option class="default1" id="default1" value="default" disabled selected>Sub menus</option>
+                <option class="oscuro1" id="oscuro1" value="black">Oscuro</option>
+                <option class="lightgreen1" id="lightgreen1" value="lightgreen">Verde</option>
+                <option class="celeste1" id="celeste1" value="lightblue">Celeste</option>
+              </select> 
+        </section> 
+    </div>
+
+</body>
+</html>
